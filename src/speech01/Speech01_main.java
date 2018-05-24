@@ -13,7 +13,7 @@ import com.ibm.watson.developer_cloud.text_to_speech.v1.util.WaveUtils;
 public class Speech01_main {
 	public static void main(String[] args){
 		TextToSpeech synthesizer = new TextToSpeech();
-		synthesizer.setUsernameAndPassword("579f29e3-b161-462a-868a-d482f229193a", "Ucd2ZIOpEvYw");
+		synthesizer.setUsernameAndPassword("J16019", "J16019");
 		String translation = "今日はいい天気ですね。";
 		SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 	       .text(translation)
